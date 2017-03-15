@@ -430,7 +430,7 @@ an element type of C<Mu>, however its default value is an undefined C<Any>:
 
 To limit the dimensions of an C<Array> provide the dimensions separated by C<,>
 or C<;> in brackets after the name of the array container. The values of such
-an C<Arrays> will default to C<Any>. The shape can be accessed at runtime via
+an C<Array> will default to C<Any>. The shape can be accessed at runtime via
 the C<shape> method.
 
     my @a[2,2];
